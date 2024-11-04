@@ -1,0 +1,82 @@
+#navbar{
+    position: fixed;
+    background-color: rgb(20, 48, 119);
+    color: white;
+    width: 100%;
+    z-index:10;
+}
+
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+#navv{
+    display: flex;
+}
+#welcome-section{
+    height: 100vh;
+    background-color: rgb(158, 194, 235);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#welcome-text{
+     font-size: xx-large;
+ }
+#projects{
+    margin-top: 40px;
+}
+#work-heading{
+    text-align: center;
+}
+#line{
+    background-color: black;
+    height: 2px;
+    margin-bottom: 50px;
+}
+
+.project-tile{
+    display: flex;
+    margin-bottom: 50px;
+}
+.project-image{
+    width: 30vw;
+    margin: 20px;
+    height: 50vh;
+}
+.project-tile a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+#contact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#profile-link{
+    text-decoration: none;
+    color: rgb(15, 51, 136);
+    font-weight: 1000;
+    font-size: 20px;
+}
+figcaption{
+    background-color: rgb(199, 191, 228);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+@media(max-width:750px)
+{
+    .project-image{
+        height: 30vh;
+    }
+}
